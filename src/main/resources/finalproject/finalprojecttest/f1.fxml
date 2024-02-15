@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalproject.finalprojecttest.Controller1">
+   <children>
+      <Button ellipsisString="" layoutX="127.0" layoutY="310.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#display" prefHeight="131.0" prefWidth="202.0" style="-fx-background-color: pink;" text="Go!" textAlignment="CENTER" textFill="#df1515" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="60.0" />
+         </font></Button>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="TOP" layoutX="127.0" layoutY="49.0" minHeight="-Infinity" minWidth="-Infinity" text="Game Start!!!" textFill="#d7d71c">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="96.0" />
+         </font>
+      </Label>
+      <Button fx:id="btForOver" layoutX="491.0" layoutY="309.0" mnemonicParsing="false" onAction="#gameOver" prefHeight="131.0" prefWidth="202.0" style="-fx-background-color: PINK;" text="Exit" textFill="#ff0101">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="60.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="538.0" fitWidth="575.0" layoutX="820.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../begin.jpg" />
+         </image></ImageView>
+   </children>
+</Pane>
